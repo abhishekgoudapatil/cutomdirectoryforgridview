@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<script src="angular.min.js"></script>
+<script src="grid.js"></script>
+<meta charset=utf-8 />
+
+  <style>
+    table,td,th {
+      border:3px solid grey;
+	  padding:4px;
+      
+    }
+      </style>
+</head>
+<body>
+  
+  <div ng-controller="MyCtrl">
+    
+
+      <div ng-repeat="customer in customers" create-a-table="customer"></div>
+    
+  
+</body>
+</html>
