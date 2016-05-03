@@ -23,7 +23,7 @@ app.directive('createATable', function () {
       item: '=createATable'
     },
     
-    templateUrl: 'mytemplate.html',
+    templateUrl: 'gridtemplate.html',
 	link:function($scope,element,attributes) {
 	     element.css('background-color','red');
          element.css('padding','20px');
